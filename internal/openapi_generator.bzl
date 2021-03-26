@@ -79,7 +79,7 @@ def _new_generator_command(ctx, declared_dir, rjars):
 
     # fixme: by default, openapi-generator is rather verbose. this helps with that but can also mask useful error messages
     # when it fails. look into log configuration options. it's a java app so perhaps just a log4j.properties or something
-    gen_cmd += " 1>/dev/null"
+    # gen_cmd += " 1>/dev/null"
     return gen_cmd
 
 def _impl(ctx):
